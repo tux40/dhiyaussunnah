@@ -170,7 +170,7 @@ color: #eee;
 nav li {
   display: inline-block;
   border-bottom: none;
-  width: 8.5rem;
+  width: 10.5rem;
 }
 
 /*-----------------------------------------*/
@@ -448,4 +448,18 @@ footer a {
   grid-column-end: 9;
   grid-row-start: 9;
   grid-row-end: 13;
+}
+
+.gallery__item--13{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 13;
+  grid-row-end: 16;
+}
+
+.gallery__item--14{
+  grid-column-start: 5;
+  grid-column-end: 9;
+  grid-row-start: 13;
+  grid-row-end: 16;
 }
