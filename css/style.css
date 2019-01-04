@@ -61,7 +61,7 @@ header {
 }
 
 header img {
-  width: 15rem;
+  width: 10rem;
   border: 1px solid rgba(0,0,0,.1);
   border-radius: 100%;
   padding: .25rem;
@@ -135,8 +135,17 @@ header h3 {
 
 /* ==== A SIMPLE TOP NAVIGATION ==== */
 
+/* Clearfix */
+nav::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
 nav {
 font-size: 0;
+width: 100%;
+
 }
 
 nav ul {
