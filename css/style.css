@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 @media (min-width: 700px){
   body {
-      background: coral;
+      background-color: coral;
       margin:0;
   }
 
